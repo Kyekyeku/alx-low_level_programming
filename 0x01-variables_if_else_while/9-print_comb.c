@@ -12,11 +12,9 @@ int main(void)
 
 	for (s = 0 ; s < 10 ; s++)
 	{
-		if (s == 9)
-			putchar(s + '0');
-		else
+		putchar(s + '0');
+		if (s != 9)
 		{
-			putchar(s + '0');
 			putchar(',');
 			putchar(' ');
 		}
