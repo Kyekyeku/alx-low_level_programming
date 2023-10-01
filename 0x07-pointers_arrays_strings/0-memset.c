@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * _memset - Entery point
  * @s: pointed destination
  * @b: constant byte
