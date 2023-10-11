@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main: - Prints the Name
+ * main - Prints the Name
  * Return: Always (0)
  */
 
