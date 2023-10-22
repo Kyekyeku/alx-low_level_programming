@@ -16,6 +16,6 @@ typedef struct print
 {
 	char *idt;
 	void (*fptr)(va_list);
-}t_print;
+} t_print;
 
 #endif
