@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
- * print_listint -prints all the Element of a list
+ * print_listint -prints all Element of a list
  * @h: list type
  * Return: number of nodes
  */
@@ -15,7 +15,7 @@ size_t print_listint(const listint_t *h)
 	{
 		s++;
 		printf("%d\n", h->n);
-		h =h->next;
+		h = h->next;
 	}
 	return (s);
 }
