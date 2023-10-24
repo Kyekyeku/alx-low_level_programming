@@ -2,9 +2,9 @@
 #include "lists.h"
 
 /**
- * add_nodeint - add a new node at the beginning of a listint_t list.
+ * add_nodeint - adds a new node at the beginning of a listint_t list.
  * @head: linked lists pointer head
- * @h: Integer to be linked
+ * @n: integer to be linked
  * Return: address of new element
  */
 
